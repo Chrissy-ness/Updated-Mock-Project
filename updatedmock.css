@@ -32,8 +32,8 @@
 /*here is a dummy hover example*/
 .text-1:hover {
     opacity: 1;
-    background-color: red;
-    color: green;
+    background-color: deeppink;
+    color: deepskyblue;
 }
 
 img {

@@ -1,0 +1,42 @@
+.main-container {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+.text-1 {
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 250px;
+    height: 250px;
+    font-size: 3em;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: opacity 1s;
+    display: flex;
+    color: white;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #00000099;
+}
+
+.text-1:hover {
+    opacity: 1;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    box-sizing: border-box;
+    border: 10px solid peachpuff;
+}
+
+

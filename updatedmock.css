@@ -28,8 +28,12 @@
     background-color: #00000099;
 }
 
+
+/*here is a dummy hover example*/
 .text-1:hover {
     opacity: 1;
+    background-color: red;
+    color: green;
 }
 
 img {

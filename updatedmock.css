@@ -10,7 +10,7 @@
 }
 
 .text-1 {
-    top: 0;
+    top: 100%;
     left: 0;
     opacity: 0;
     width: 250px;
@@ -18,7 +18,7 @@
     font-size: 3em;
     padding-left: 10px;
     padding-right: 10px;
-    transition: opacity 1s;
+    transition: all 1s;
     display: flex;
     color: white;
     position: absolute;
@@ -27,14 +27,9 @@
     box-sizing: border-box;
     background-color: #00000099;
 }
-
-
-/*here is a dummy hover example*/
-.text-1:hover {
-    opacity: 1;
-    background-color: red;
-    color: green;
-}
+.contain:hover > .text-1 {
+    opacity:1;
+    top: 0;
 
 img {
     width: 250px;
